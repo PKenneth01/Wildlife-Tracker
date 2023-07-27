@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: LocationsTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 147.294 sec <<< FAILURE! - in LocationsTest
+createInstanceOfLocationsClass(LocationsTest)  Time elapsed: 21.023 sec  <<< ERROR!
+org.sql2o.Sql2oException: Could not acquire a connection from DataSource - Connection to ec2-18-209-187-54.compute-1.amazonaws.com:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+Caused by: org.postgresql.util.PSQLException: Connection to ec2-18-209-187-54.compute-1.amazonaws.com:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+Caused by: java.net.ConnectException: Connection timed out: connect
+
+allSightingsAreReturnedForRanger(LocationsTest)  Time elapsed: 42.099 sec  <<< ERROR!
+org.sql2o.Sql2oException: Could not acquire a connection from DataSource - Connection to ec2-18-209-187-54.compute-1.amazonaws.com:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+Caused by: org.postgresql.util.PSQLException: Connection to ec2-18-209-187-54.compute-1.amazonaws.com:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+Caused by: java.net.ConnectException: Connection timed out: connect
+
+entryIsDeletedSuccessfully(LocationsTest)  Time elapsed: 42.081 sec  <<< ERROR!
+org.sql2o.Sql2oException: Could not acquire a connection from DataSource - Connection to ec2-18-209-187-54.compute-1.amazonaws.com:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+Caused by: org.postgresql.util.PSQLException: Connection to ec2-18-209-187-54.compute-1.amazonaws.com:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+Caused by: java.net.ConnectException: Connection timed out: connect
+
+allEntriesAreSaved(LocationsTest)  Time elapsed: 42.091 sec  <<< ERROR!
+org.sql2o.Sql2oException: Could not acquire a connection from DataSource - Connection to ec2-18-209-187-54.compute-1.amazonaws.com:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+Caused by: org.postgresql.util.PSQLException: Connection to ec2-18-209-187-54.compute-1.amazonaws.com:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+Caused by: java.net.ConnectException: Connection timed out: connect
+

@@ -1,0 +1,39 @@
+-------------------------------------------------------------------------------
+Test set: EndangeredAnimalsTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 7, Skipped: 0, Time elapsed: 252.459 sec <<< FAILURE! - in EndangeredAnimalsTest
+findByIdReturnsCorrectInfo(EndangeredAnimalsTest)  Time elapsed: 42.01 sec  <<< ERROR!
+org.sql2o.Sql2oException: Could not acquire a connection from DataSource - Connection to ec2-18-209-187-54.compute-1.amazonaws.com:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+Caused by: org.postgresql.util.PSQLException: Connection to ec2-18-209-187-54.compute-1.amazonaws.com:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+Caused by: java.net.ConnectException: Connection timed out: connect
+
+deleteAllEntries(EndangeredAnimalsTest)  Time elapsed: 42.083 sec  <<< ERROR!
+org.sql2o.Sql2oException: Could not acquire a connection from DataSource - Connection to ec2-18-209-187-54.compute-1.amazonaws.com:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+Caused by: org.postgresql.util.PSQLException: Connection to ec2-18-209-187-54.compute-1.amazonaws.com:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+Caused by: java.net.ConnectException: Connection timed out: connect
+
+ensureNameFieldCannotBeEmpty(EndangeredAnimalsTest)  Time elapsed: 21.051 sec  <<< ERROR!
+org.sql2o.Sql2oException: Could not acquire a connection from DataSource - Connection to ec2-18-209-187-54.compute-1.amazonaws.com:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+Caused by: org.postgresql.util.PSQLException: Connection to ec2-18-209-187-54.compute-1.amazonaws.com:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+Caused by: java.net.ConnectException: Connection timed out: connect
+
+testInstanceOfEndangeredAnimalsClass_true(EndangeredAnimalsTest)  Time elapsed: 21.053 sec  <<< ERROR!
+org.sql2o.Sql2oException: Could not acquire a connection from DataSource - Connection to ec2-18-209-187-54.compute-1.amazonaws.com:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+Caused by: org.postgresql.util.PSQLException: Connection to ec2-18-209-187-54.compute-1.amazonaws.com:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+Caused by: java.net.ConnectException: Connection timed out: connect
+
+allInstancesAreSaved(EndangeredAnimalsTest)  Time elapsed: 42.075 sec  <<< ERROR!
+org.sql2o.Sql2oException: Could not acquire a connection from DataSource - Connection to ec2-18-209-187-54.compute-1.amazonaws.com:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+Caused by: org.postgresql.util.PSQLException: Connection to ec2-18-209-187-54.compute-1.amazonaws.com:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+Caused by: java.net.ConnectException: Connection timed out: connect
+
+deleteByID(EndangeredAnimalsTest)  Time elapsed: 42.112 sec  <<< ERROR!
+org.sql2o.Sql2oException: Could not acquire a connection from DataSource - Connection to ec2-18-209-187-54.compute-1.amazonaws.com:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+Caused by: org.postgresql.util.PSQLException: Connection to ec2-18-209-187-54.compute-1.amazonaws.com:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+Caused by: java.net.ConnectException: Connection timed out: connect
+
+ensureEntryIsUpdatedCorrectly(EndangeredAnimalsTest)  Time elapsed: 42.075 sec  <<< ERROR!
+org.sql2o.Sql2oException: Could not acquire a connection from DataSource - Connection to ec2-18-209-187-54.compute-1.amazonaws.com:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+Caused by: org.postgresql.util.PSQLException: Connection to ec2-18-209-187-54.compute-1.amazonaws.com:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+Caused by: java.net.ConnectException: Connection timed out: connect
+
